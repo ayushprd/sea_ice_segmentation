@@ -1,5 +1,7 @@
 # Sea Ice Segmentation with GFMs
 
+**Slides** https://github.com/ayushprd/sea_ice_segmentation/blob/main/IntrotoGFMs.pdf
+
 Evaluates geospatial foundation models (currently only TerraMind) against a UNet baseline on the task of classifying SAR pixels as **water** or **sea ice** using the [AI4Arctic Sea Ice Challenge](https://platform.ai4eo.eu/ai4arctic-sea-ice-challenge) dataset. 
 
 ## Dataset
@@ -54,13 +56,10 @@ sea_ice/
 │   ├── visualize_predictions.py        # Prediction visualization
 │   ├── plot_data_efficiency.py         # Plot data efficiency curves
 │   ├── run_single_exp.py              # Single experiment runner
-│   ├── sea_ice_dataset.py              # Scene-level dataset (legacy)
 │   ├── models/
 │   │   ├── unet.py                     # UNet baseline (1.9M params)
 │   │   └── terramind_s1.py             # TerraMind S1 segmentation head
-│   ├── checkpoints/                    # Saved model weights (gitignored)
 │   ├── results/                        # JSON metrics + plots
-│   └── logs/                           # TensorBoard logs (gitignored)
 └── data/                               # Dataset files (gitignored)
     ├── train/                          # 512 NetCDF scenes (~57 GB)
     ├── test/                           # 20 NetCDF scenes (~2.4 GB)
