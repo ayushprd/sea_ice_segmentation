@@ -1,0 +1,11 @@
+{
+  "model": "terramind",
+  "fraction": 0.25,
+  "metrics": {
+    "test/loss": 0.11075234413146973,
+    "test/iou_water": 0.9316717386245728,
+    "test/iou_ice": 0.9022300243377686,
+    "test/iou_mean": 0.9169508814811707,
+    "test/accuracy": 0.9701375961303711
+  }
+}

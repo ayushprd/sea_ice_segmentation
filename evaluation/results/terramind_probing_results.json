@@ -1,0 +1,12 @@
+{
+  "model": "terramind",
+  "mode": "probing",
+  "freeze_backbone": true,
+  "metrics": {
+    "test/loss": 0.08134165406227112,
+    "test/iou_water": 0.931730329990387,
+    "test/iou_ice": 0.8880575299263,
+    "test/iou_mean": 0.9098939299583435,
+    "test/accuracy": 0.9692074656486511
+  }
+}

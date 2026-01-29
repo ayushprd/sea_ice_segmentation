@@ -1,0 +1,12 @@
+{
+  "model": "unet",
+  "mode": null,
+  "freeze_backbone": null,
+  "metrics": {
+    "test/loss": 0.0993013083934784,
+    "test/iou_water": 0.9176816344261169,
+    "test/iou_ice": 0.8729276061058044,
+    "test/iou_mean": 0.8953046202659607,
+    "test/accuracy": 0.9635673761367798
+  }
+}

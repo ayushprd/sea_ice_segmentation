@@ -1,0 +1,12 @@
+{
+  "model": "terramind",
+  "mode": "finetune",
+  "freeze_backbone": false,
+  "metrics": {
+    "test/loss": 0.12408871948719025,
+    "test/iou_water": 0.9415593147277832,
+    "test/iou_ice": 0.9057777523994446,
+    "test/iou_mean": 0.9236685037612915,
+    "test/accuracy": 0.9727681279182434
+  }
+}

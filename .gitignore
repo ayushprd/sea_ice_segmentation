@@ -1,0 +1,55 @@
+# Data (large, downloaded separately)
+/data/
+/reference_code/
+
+# Model checkpoints and logs
+evaluation/checkpoints/
+evaluation/logs/
+/lightning_logs/
+/wandb/
+/mlruns/
+/tensorboard/
+
+# Embeddings
+/embeddings/
+/output_*/
+/outputs/
+
+# Large binary formats
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.parquet
+*.nc
+
+# Geospatial data
+*.tif
+*.tiff
+*.jp2
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.temp
+/tmp/
+/temp/
+
+# OS
+.DS_Store
+Thumbs.db

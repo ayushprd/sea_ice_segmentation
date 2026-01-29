@@ -1,0 +1,11 @@
+{
+  "model": "unet",
+  "fraction": 0.05,
+  "metrics": {
+    "test/loss": 0.17440174520015717,
+    "test/iou_water": 0.8848055601119995,
+    "test/iou_ice": 0.8267053961753845,
+    "test/iou_mean": 0.8557554483413696,
+    "test/accuracy": 0.9450023770332336
+  }
+}
